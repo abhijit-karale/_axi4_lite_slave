@@ -3,7 +3,7 @@
   // Description : AXI4-Lite slave with 8 memory-mapped 32-bit registers.
 //               Implements independent write-address/write-data/write-response
 //               and read-address/read-data channels per AXI4-Lite protocol.
-// Author      : Abhijit Karale
+ // Author      : Abhijit Karale
 // -----------------------------------------------------------------------------
 module axi4_lite_slave #(
     parameter ADDR_WIDTH = 32,
