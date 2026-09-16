@@ -4,7 +4,7 @@
 //               Implements independent write-address/write-data/write-response
 //               and read-address/read-data channels per AXI4-Lite protocol.
  // Author      : Abhijit Karale
-// -----------------------------------------------------------------------------
+ // -----------------------------------------------------------------------------
 module axi4_lite_slave #(
     parameter ADDR_WIDTH = 32,
     parameter DATA_WIDTH = 32,
